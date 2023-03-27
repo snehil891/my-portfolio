@@ -1,19 +1,27 @@
-.navbar{
-  margin: 0;
-  padding: 0;
-}
-.container-fluid {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(0, 0, 0);
-}
-
 .navbar-brand {
-  color: rgb(26, 25, 25);
-  background: linear-gradient(90deg, rgb(65, 65, 152) 35%, rgb(19, 7, 127) 100%);
+  font-size: 26px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(180deg, #3b22a7, rgb(45, 148, 157), #2b718d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.collapse .nav-item .nav-link{
-  color: white;
+.nav .nav-link {
+  color: rgb(38, 37, 37);
   font-size: 20px;
+}
+
+.nav .nav-link .dropdown-menu .dropdown-item::after {
+  background-color: #3b22a7;
+}
+
+.card .card-img-top {
+  max-width: 150px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.card-body {
+  font-size: 20px;
+  color: #000000;
 }
