@@ -5,25 +5,18 @@ import PropTypes from 'prop-types'
 
 export default function Navigation(props) {
     return (
-        <nav id="navbar-example2" className="navbar bg-body-tertiary px-3 mb-3">
-            <a className="navbar-brand" href="#">{props.title}</a>
-            <ul className="nav nav-pills">
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About me</a>
-                    <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#scrollspyHeading3">Technical Skills</a></li>
-                        <li><a className="dropdown-item" href="#scrollspyHeading4">Education</a></li>
-                        <li><a className="dropdown-item" href="#scrollspyHeading5">Hobbies</a></li>
-                    </ul>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#scrollspyHeading1">Resume</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#scrollspyHeading2">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <header className="header">
+            <a href="#" className="logo">Snehil</a>
+            <div className="bx bx-menu" id='menu-icon'></div>
+            <nav className="navbar">
+                <a href="./Profile.js" className="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Education</a>
+                <a href="#">Skills</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
     )
 }
 
