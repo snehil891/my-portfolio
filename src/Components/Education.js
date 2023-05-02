@@ -4,10 +4,9 @@ import PropTypes from 'prop-types'
 export default function Education(props) {
     return (
         <section className='education' id='education'>
-            <h3 className='heading'>My<span>Education</span>Journey</h3>
+            <h5 className='heading'>My<span>Education</span>Journey</h5>
             <div className='education-row'>
                 <div className='education-column'>
-                    <h3 className='title'>Education</h3>
                     <div className='education-box'>
                         <div className='education-content'>
                             <div className='content'>

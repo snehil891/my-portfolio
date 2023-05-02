@@ -249,85 +249,124 @@ span {
   flex-direction: column;
   min-height: auto;
   background: var(--second-bg-color);
-  padding-bottom: 5rem;
 }
 
 .education .education-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .education-row .education-column {
-  flex: 1 1 40rem;
+  flex: 1 1 20rem;
 
-}
-
-.education-column .title {
-  font-size: 2.5rem;
-  margin: 0 0 1.5rem 2rem;
 }
 
 .education-column .education-box {
   border-left: 0.2rem solid var(--bg-color);
+  border-bottom: 0.2rem solid var(--bg-color);
+  border-right: 0.2rem solid var(--bg-color);
+  border-top: 0.2rem solid var(--bg-color);
 }
 
 .education-box .education-content {
   position: relative;
   padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .education-box .education-content::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: -1.2rem;
+  left: -1.1rem;
   width: 2rem;
   height: 2rem;
   background: var(--bg-color);
-  border-radius: 30%;
+  border-radius: 50%;
 }
 
 .education-content .content {
   position: relative;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border: 0.2rem solid var(--bg-color);
   border-radius: 0.7rem;
-  margin-bottom: 2rem;
   overflow: hidden;
 }
 
-.education-content .content ::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: red;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.education-content .content:hover::before {
-  width: 100%;
-}
-
 .education-content .content .year {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--bg-color);
-  padding-bottom: 0.5rem;
-}
-
-.education-content .content .year i {
-  padding-right: 0.5rem;
 }
 
 .education-content .content h3 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 
 .education-content .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: var(--bg-color);
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  background: var(--second-bg-color);
+}
+
+.skills .skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-row .skills-column {
+  flex: 1 1 20rem;
+
+}
+
+.skills .skills-box {
+  border-left: 0.2rem solid var(--bg-color);
+  border-bottom: 0.2rem solid var(--bg-color);
+  border-right: 0.2rem solid var(--bg-color);
+  border-top: 0.2rem solid var(--bg-color);
+}
+
+.skills-box .skills-content {
+  position: relative;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.skills-box .skills-content::before {
+  content: '';
+  position: absolute;
+  left: -1.1rem;
+  width: 2rem;
+  height: 2rem;
+  background: var(--bg-color);
+  border-radius: 50%;
+}
+
+.skills-content .content {
+  position: relative;
+  padding: 1.2rem;
+  border: 0.2rem solid var(--bg-color);
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.skills-content .content h3 {
+  font-size: 1.4rem;
+}
+
+.skills-content .content p {
+  font-size: 1.5rem;
   color: var(--bg-color);
 }
