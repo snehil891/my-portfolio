@@ -7,7 +7,7 @@ export default function Profile(props){
             <div className="home-content">
                 <h1>Hi I'm <span>Snehil Sah</span></h1>
                 <div className="text">
-                    <h3>Full stack web developer</h3>
+                    <h3>Full stack developer</h3>
                 </div>
                 <p>Aiming to obtain a successful career in the IT Industry and to fully utilize my skills for making a significant
                     contribution to the success of the organization that I will work in.</p>
