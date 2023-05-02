@@ -8,7 +8,6 @@ export default function About(props) {
             <h2 className='heading'>About<span>Me</span></h2>
             <div className='about-img'>
                 <img src={myImage} alt='profile'></img>
-                <span className='circle-spin'></span>
             </div>
             <div className='about-content'>
                 <h5>Full stack developer</h5>
