@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  transition: 0.3s;
 }
 
 .logo {
@@ -52,8 +53,12 @@ body {
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
-
 }
+
+/* .header {
+  background: var(--bg-color);
+  height: 5rem;
+} */
 
 #menu-icon {
   font-size: 3.6rem;
@@ -81,6 +86,10 @@ section {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.3;
+}
+
+.home-content h1 span {
+  color: var(--text-color);
 }
 
 .home-content .text {
@@ -251,10 +260,13 @@ span {
   background: var(--second-bg-color);
 }
 
+.education .heading {
+  font-size: 4.2rem;
+}
+
 .education .education-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .education-row .education-column {
@@ -271,10 +283,10 @@ span {
 
 .education-box .education-content {
   position: relative;
-  padding-left: 2rem;
-  padding-top: 1.5rem;
-  padding-right: 2rem;
-  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .education-box .education-content::before {
@@ -289,23 +301,23 @@ span {
 
 .education-content .content {
   position: relative;
-  padding: 1.2rem;
+  padding: 1rem;
   border: 0.2rem solid var(--bg-color);
   border-radius: 0.7rem;
   overflow: hidden;
 }
 
 .education-content .content .year {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--bg-color);
 }
 
 .education-content .content h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .education-content .content p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--bg-color);
 }
 
@@ -321,7 +333,6 @@ span {
 .skills .skills-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .skills-row .skills-column {
@@ -338,10 +349,10 @@ span {
 
 .skills-box .skills-content {
   position: relative;
-  padding-left: 2rem;
-  padding-top: 1.5rem;
-  padding-right: 2rem;
-  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .skills-box .skills-content::before {
@@ -356,18 +367,18 @@ span {
 
 .skills-content .content {
   position: relative;
-  padding: 1.2rem;
+  padding: 0.8rem;
   border: 0.2rem solid var(--bg-color);
   border-radius: 0.7rem;
   overflow: hidden;
 }
 
 .skills-content .content h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .skills-content .content p {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   color: var(--bg-color);
 }
 
@@ -377,7 +388,7 @@ span {
 }
 
 .contact form {
-  max-width: 70rem;
+  max-width: 60rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -395,19 +406,28 @@ span {
   margin: 0.2rem 0;
 }
 
-.contact form .input-box .input-field input,
-.contact form .textarea textarea {
+.contact form .input-box .input-field input{
   width: 100%;
   height: 100%;
-  padding: 1.5rem;
-  font-size: 1.2rem;
+  padding: 1.1rem;
+  font-size: 1rem;
   color: var(--text-color);
   background: transparent;
   border-radius: 0.2rem;
   border: 0.2rem solid var(--bg-color);
   transition: 1.1s;
 }
-
+.contact form .textarea textarea{
+  width: 100%;
+  height: 15.5rem;
+  padding: 1.1rem;
+  font-size: 1rem;
+  color: var(--text-color);
+  background: transparent;
+  border-radius: 0.2rem;
+  border: 0.2rem solid var(--bg-color);
+  transition: 1.1s;
+}
 .contact form .input-box .input-field input::placeholder,
 .contact form .textarea textarea::placeholder {
   color: var(--text-color);
@@ -420,7 +440,7 @@ span {
 
 .contact form .textarea {
   position: relative;
-  margin: 0.5rem 0 2.2rem;
+  margin: 0.1rem 0 0.9rem;
   display: flex;
 }
 

@@ -4,7 +4,7 @@ import myImage from './myImage.jpg'
 
 export default function About(props) {
     return (
-        <section className='aboutme' id='aboutme'>
+        <section className='aboutme' id='about'>
             <h2 className='heading'>About<span>Me</span></h2>
             <div className='about-img'>
                 <img src={myImage} alt='profile'></img>

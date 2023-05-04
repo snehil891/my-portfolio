@@ -12,19 +12,19 @@ export default function Skills(props) {
                         <div className='skills-content'>
                             <div className='content'>
                                 <h3>Programming Languages:</h3>
-                                <p><ul><li>C,Python,Java,JavaScript,ReactJS,XML</li></ul></p>
+                                <p>C,Python,Java,JavaScript,ReactJS,XML</p>
                             </div>
                         </div>
                         <div className='skills-content'>
                             <div className='content'>
                                 <h3>Databases:</h3>
-                                <p><ul><li> SQL, MongoDB, Firebase</li></ul></p>
+                                <p> SQL, MongoDB, Firebase</p>
                             </div>
                         </div>
                         <div className='skills-content'>
                             <div className='content'>
                                 <h3>Operating System</h3>
-                                <p><ul><li>Windows and Linux</li></ul></p>
+                                <p>Windows and Linux</p>
                             </div>
                         </div>
                     </div>
