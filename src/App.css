@@ -34,7 +34,6 @@ body {
   z-index: 100;
   transition: 0.3s;
 }
-
 .logo {
   font-size: 1.7rem;
   color: var(--text-color);
@@ -50,15 +49,15 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover {
   color: var(--main-color);
 }
 
-/* .header {
+.header {
   background: var(--bg-color);
   height: 5rem;
-} */
+  opacity: 0.5;
+}
 
 #menu-icon {
   font-size: 3.6rem;
