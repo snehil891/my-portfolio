@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Resume from '../Resume.pdf';
 
 export default function Profile(props){
     return(
@@ -13,7 +14,7 @@ export default function Profile(props){
                     contribution to the success of the organization that I will work in.</p>
                 
                 <div className="btn-box">
-                    <a href="#resume" className="btn">Download Resume</a>
+                    <a href={Resume} download={"Resume.pdf"} className="btn">Download Resume</a>
                 </div>
             </div>
             <div className="home-social">
