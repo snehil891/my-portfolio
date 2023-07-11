@@ -6,7 +6,6 @@ export default function Navigation(props) {
         <>
         <header className="header">
             <a href="#home" className="logo">Snehil</a>
-            <div className="bx bx-menu" id='menu-icon'></div>
             <nav className="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>

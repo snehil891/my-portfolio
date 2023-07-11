@@ -23,7 +23,7 @@ export default function Skills(props) {
                         </div>
                         <div className='skills-content'>
                             <div className='content'>
-                                <h3>Operating System</h3>
+                                <h3>Operating System:</h3>
                                 <p>Windows and Linux</p>
                             </div>
                         </div>

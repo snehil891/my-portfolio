@@ -17,8 +17,8 @@ export default function Profile(props){
                 </div>
             </div>
             <div className="home-social">
-                <a href="#linkedin"><i className="bx bxl-linkedin"></i></a>
-                <a href="#githublink"><i className="bx bxl-github" ></i></a>
+                <a href="https://www.linkedin.com/in/snehil-sah-81ba99238/" rel='noreferrer' target="_blank"><i className="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/snehil891" rel='noreferrer' target='_blank'><i className="bx bxl-github" ></i></a>
             </div>  
         </section>
     )
