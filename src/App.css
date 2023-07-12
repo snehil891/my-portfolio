@@ -5,7 +5,7 @@
   text-decoration: none;
   border: none;
   outline: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -20,49 +20,11 @@ body {
   color: var(--text-color);
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2rem 9%;
-  background: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-  transition: 0.3s;
-}
 
-.logo {
-  font-size: 1.7rem;
-  color: var(--text-color);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.navbar a {
-  font-size: 1.2rem;
-  color: var(--text-color);
-  font-weight: 500;
-  margin-left: 3.5rem;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: var(--main-color);
-}
-
-.header {
-  background: var(--bg-color);
-  height: 5rem;
-  opacity: 0.9;
-}
-
-section {
+/* section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
-}
+} */
 
 .home {
   display: flex;
