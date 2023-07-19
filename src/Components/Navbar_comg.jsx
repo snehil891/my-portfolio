@@ -1,12 +1,6 @@
 import "./css/nav.css";
 import { Link } from "react-scroll";
-import About from "./About";
-import Profile from "./Profile";
-import Education from "./Education";
-import Skills from "./Skills";
-import Contact from "./Contact";
 import { useState } from "react";
-import { useEffect } from "react";
 
 export const NavBar = () => {
   const [toggle, settoggle] = useState(false);
@@ -39,21 +33,7 @@ export const NavBar = () => {
           </Link>
         </div>
       </div>
-      <section id="profile">
-        <Profile />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="edu">
-        <Education />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+      
     </div>
   );
 };

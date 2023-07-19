@@ -19,6 +19,7 @@ body {
   /* padding-top: 100px; */
   background: url(./Components/background.webp) no-repeat;
   color: var(--text-color);
+  background-color: #242333;
 }
 
 .home {
