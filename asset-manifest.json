@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/snehil891.github.io/my-portfolio/static/css/main.902aca2b.css",
+    "main.js": "/snehil891.github.io/my-portfolio/static/js/main.08f13547.js",
+    "static/js/787.128fc6e9.chunk.js": "/snehil891.github.io/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/myImage.jpg": "/snehil891.github.io/my-portfolio/static/media/myImage.ea5e6c7fc408f2677b59.jpg",
+    "static/media/Resume.pdf": "/snehil891.github.io/my-portfolio/static/media/Resume.7c31bf4043af8805b570.pdf",
+    "static/media/background.webp": "/snehil891.github.io/my-portfolio/static/media/background.86e566bb1ab9b71c90d1.webp",
+    "index.html": "/snehil891.github.io/my-portfolio/index.html",
+    "main.902aca2b.css.map": "/snehil891.github.io/my-portfolio/static/css/main.902aca2b.css.map",
+    "main.08f13547.js.map": "/snehil891.github.io/my-portfolio/static/js/main.08f13547.js.map",
+    "787.128fc6e9.chunk.js.map": "/snehil891.github.io/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.902aca2b.css",
+    "static/js/main.08f13547.js"
+  ]
+}
