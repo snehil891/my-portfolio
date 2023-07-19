@@ -51,7 +51,7 @@ body {
   font-size: 3.2vw;
   font-weight: 600;
   color: transparent;
-  -webkit-text-stroke: 0.8px white;
+  -webkit-text-stroke: 0.8px #a597f0;
 }
 
 .home-content p {

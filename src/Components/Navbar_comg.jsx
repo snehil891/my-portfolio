@@ -23,7 +23,7 @@ export const NavBar = () => {
             About
           </Link>
           <Link onClick={togglefunc} to={"edu"}smooth spy className="sub-link"activeClass="sub-linkactive"  offset={-70}>
-            Edu
+            Education
           </Link>
           <Link onClick={togglefunc} to={"skills"}smooth spy className="sub-link" activeClass="sub-linkactive"  offset={-70}>
             Skills
