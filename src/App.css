@@ -625,7 +625,7 @@ span {
   }
 
   .contact {
-    min-height: auto;
+    height: auto;
     background: var(--second-bg-color);
   }
 
