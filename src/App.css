@@ -668,19 +668,19 @@ body {
     padding: 4vw 4%;
   }
   .home-content h1 {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
 
   .home-content span {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
 
   .home-content p {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .home-content .text h3 {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
 
   .home-content .btn-box {
@@ -689,7 +689,7 @@ body {
     justify-content: space-between;
     margin-top: 5vw;
     width: 20.5vw;
-    height: 5vw;
+    height: 4.5vw;
   }
 
   .home-content .btn-box .btn {
@@ -697,7 +697,7 @@ body {
   }
 
   .home-social i {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .home {
@@ -705,11 +705,11 @@ body {
   }
 
   .education .heading {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .education .heading span {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .education .education-row {
@@ -749,7 +749,7 @@ body {
 
   .education-content .content {
     position: relative;
-    padding: 1.5vw 2vw;
+    padding: 1vw 1vw;
     border: 0.2vw solid var(--bg-color);
     border-radius: 0.7vw;
     overflow: hidden;
@@ -761,11 +761,11 @@ body {
   }
 
   .education-content .content h3 {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
 
   .education-content .content p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--bg-color);
   }
 
@@ -778,15 +778,11 @@ body {
   }
 
   .skills .heading {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .skills .heading span {
-    font-size: 5.5vw;
-  }
-
-  .skills .title {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .skills .skills-row {
@@ -795,7 +791,7 @@ body {
   }
 
   .skills-row .skills-column {
-    flex: 1 1 20vw;
+    flex: 1 1 10vw;
 
   }
 
@@ -826,17 +822,17 @@ body {
 
   .skills-content .content {
     position: relative;
-    padding: 1vw 1vw 2vw;
+    padding: 1vw 1vw;
     border: 0.2vw solid var(--bg-color);
     border-radius: 0.7vw;
   }
 
   .skills-content .content h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .skills-content .content p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--bg-color);
   }
 
@@ -845,11 +841,11 @@ body {
   }
 
   .contact .heading {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .contact .heading span {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   .contact form {
@@ -874,8 +870,8 @@ body {
   .contact form .input-box .input-field input {
     width: 100%;
     height: 100%;
-    padding: 0.5vw;
-    font-size: 1.75vw;
+    padding: 0.2vw;
+    font-size: 1.5vw;
     color: var(--text-color);
     background: transparent;
     border-radius: 0.2vw;
@@ -885,9 +881,9 @@ body {
 
   .contact form .textarea textarea {
     width: 100%;
-    height: 25.5vw;
+    height: 10.5vw;
     padding: 1vw;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     color: var(--text-color);
     background: transparent;
     border-radius: 0.2vw;
@@ -907,7 +903,7 @@ body {
 
   .contact form .textarea {
     position: relative;
-    margin: 0.5vw 0 1.9vw;
+    margin: 0.5vw 0 1vw;
     display: flex;
   }
 
@@ -920,11 +916,11 @@ body {
     border-radius: 0.6vw;
     border: 0.2vw solid var(--bg-color);
     color: var(--text-color);
-    padding: 0.8vw 5.8vw;
+    padding: 0.5vw 4.8vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.4vw;
+    font-size: 1.5vw;
   }
 }
 
