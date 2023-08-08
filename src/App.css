@@ -695,7 +695,31 @@ body {
   .home-content .btn-box .btn {
     font-size: 1.25vw;
   }
-
+  .home-social {
+    position: absolute;
+    bottom: 1vw;
+    width: 100px;
+    justify-content: space-evenly;
+  }
+  
+  .home-social a {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 0.2vw solid var(--main-color);
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+  }
   .home-social i {
     font-size: 1.25vw;
   }
