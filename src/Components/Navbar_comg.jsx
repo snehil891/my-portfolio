@@ -1,4 +1,4 @@
-import "./css/nav.css";
+import "./Styles/nav.css";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -18,9 +18,6 @@ export const NavBar = () => {
         <div className="nav-links">
           <Link onClick={togglefunc} to={"profile"}smooth spy className="sub-link "activeClass="sub-linkactive" offset={-70}>
             Profile
-          </Link>
-          <Link onClick={togglefunc} to={"about"}smooth spy className="sub-link"activeClass="sub-linkactive"  offset={-90}>
-            About
           </Link>
           <Link onClick={togglefunc} to={"edu"}smooth spy className="sub-link"activeClass="sub-linkactive"  offset={-70}>
             Education

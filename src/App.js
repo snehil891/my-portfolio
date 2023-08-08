@@ -1,6 +1,5 @@
 import './App.css';
 import Profile from './Components/Profile';
-import About from './Components/About';
 import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
@@ -15,9 +14,6 @@ function App() {
     <NavBar/>
     <section id="profile">
         <Profile />
-      </section>
-      <section id="about">
-        <About />
       </section>
       <section id="edu">
         <Education />
