@@ -662,7 +662,7 @@ body {
   }
 } 
 
-@media (width<=991px)
+@media (width<=950px)
 {
   .header {
     padding: 4vw 4%;
