@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Resume from '../Resume.pdf';
-import './Styles/Profile.css';
 
 export default function Profile(props){
     return(
