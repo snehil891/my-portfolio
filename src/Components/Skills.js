@@ -4,10 +4,9 @@ import PropTypes from 'prop-types'
 export default function Skills(props) {
     return (
         <section className='skills' id='skills'>
-            <h5 className='heading'>My<span>Skills</span></h5>
+            <h5 className='heading'>Technical<span>Skills</span></h5>
             <div className='skills-row'>
                 <div className='skills-column'>
-                    <h3 className='title'>Technical skills</h3>
                     <div className='skills-box'>
                         <div className='skills-content'>
                             <div className='content'>
